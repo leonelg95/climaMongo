@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(219, 217, 217);
+}
+
+.container {
+  max-width: 48%;
+  height: 300vh;
+}
+
+.icon {
+  max-width: 100%;
+  padding: 5%;
+  border-top: 1px solid;
+  border-block: 1px solid;
+}
+
+.nav {
+  max-width: 100%;
+}
+
+.nav ol:first-of-type,
+nav ul:first-of-type {
+  margin-left: calc(var(--pico-nav-element-spacing-horizontal) * -1);
+  font-size: 45px;
+  color: black;
+  opacity: 80%;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  background-color: white;
+  color: black;
+  font-weight: 20%;
+  border: none;
+}
+
+.card h2 {
+  font-size: 45px;
+  color: black;
+  opacity: 80%;
+  padding: 5%;
+}
+
+.card p {
+  color: black;
+  opacity: 80%;
+}
+
+.card h3 {
+  color: black;
+  opacity: 80%;
+}
+
+.card {
+  background-color: white;
+  border-radius: 2%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  background-color: skyblue;
+  border-style: none;
+  border-radius: 3%;
+}
+
+footer {
+  padding: 5%;
+}
+
+.history-button {
+  display: block;
+  margin: 1px auto;
+  padding: 1px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.history-button:hover {
+  background-color: #0056b3;
+}
+
+.history-dropdown {
+  position: relative;
+  width: 200px; /* Ajusta el ancho según sea necesario */
+  margin: 20px auto; /* Ajusta los márgenes según sea necesario */
+}
+
+.history-select {
+  width: 100%;
+  height: 200px; /* Altura de la lista desplegable */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #ccc;
+  color: rgb(18, 18, 18);
+}
+
+.history-select option {
+  padding: 5px;
+}
+
+.borrar{
+  display: block;
+  margin: 1px auto;
+  padding: 1px 9px;
+  background-color: #da817e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.borrar:hover {
+  background-color: #f50606;
+}
